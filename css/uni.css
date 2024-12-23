@@ -1,0 +1,169 @@
+/*Az oldal tulajdonságai: */
+html {
+	background-image:url("../images/background.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:rgb(180, 180, 180);
+    width:85%;
+	max-width:1200px;
+	min-width:600px;
+    margin: 30px auto;
+    border-radius:20px 20px 20px 20px;
+}
+header {
+    background-color:rgb(1, 1, 73);
+    border-radius:20px 20px 0 0;
+    padding: 0 0 10px 0;
+}
+main {
+    padding: 20px;
+}
+footer {
+    padding:10px;
+}
+div {
+    break-inside:avoid;
+}
+
+/*Szövegformázások*/
+
+    /*igazítások*/
+h1, footer p, figcaption, nav#menusor {
+    text-align:center;
+   }
+h3 {
+    text-align:left;
+}
+p {
+    text-align:left;
+    line-height: 1.6;
+}
+nav#menusor {
+    word-spacing:30px;
+}
+
+    /*színezések*/
+h1, figcaption, nav#menusor {
+    color:rgb(180, 180, 180);
+}
+figure, video {
+	background-color:rgb(1, 1, 73);
+}
+hr {
+    border:2px dashed rgb(1, 1, 73);
+    margin-top: 100px;
+}
+aside {
+    color:rgb(1, 1, 73);
+}
+
+    /*betűformázás*/
+h1 {
+    font-size:1.5em;
+    font-variant:small-caps;
+    letter-spacing:3px;
+    font-family:'Times New Roman', Times, serif;
+}
+header {
+    font-size: 2em;
+}
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    color:rgb(1, 1, 73);
+}
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    color:rgb(1, 1, 73);
+}
+figcaption {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+p {
+    font-size: 1em;
+}
+aside {
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+/*Linkek*/
+header nav#menusor a:link {
+    color:white;
+    text-decoration:underline;
+}
+header nav#menusor a:visited {
+   color:white; 
+   text-decoration:underline;
+}
+body a:link {
+    color:darkblue; 
+    text-decoration:underline;
+}
+body a:visited {
+   color:darkblue;
+   text-decoration:underline;
+}
+
+/*Lenyíló tartalom*/
+details > summary {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*Média*/
+img {
+	width:100%; 
+	height:auto;
+	border-radius:20px;
+	margin:0;	
+}
+figure, video {
+	margin:10px auto;
+	border:1px solid black;
+	padding:0;
+	border-radius:20px;
+	width:90%;
+	max-width:450px;	
+	background-color:black;
+	display:block;
+}
+
+/*Táblázat*/
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+th {
+    background-color: black;
+    color: white;
+}
+
+/*Lista*/
+ul {
+    line-height:1.5em;
+}
+
+/*Classok: */
+.standingpic {max-height:1200px; max-width:600px;}
+.thumb {max-height:75%; max-width:75%}
+.middle {text-align:center;}
+.blackhr {border:2px dashed black; margin-top: 30px; margin-bottom: 30px;}
+.parent {font-size: 2.5em; text-decoration: underline; margin-left: 0px;}
